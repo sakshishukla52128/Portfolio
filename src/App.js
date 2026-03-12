@@ -10,7 +10,6 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
   const [isAtBottom, setIsAtBottom] = useState(false);
-  const [clickedSkill, setClickedSkill] = useState(null);
 
   useEffect(() => {
     const mouseMove = (e) => {
