@@ -69,13 +69,7 @@ function App() {
   const textEnter = () => setIsHovering(true);
   const textLeave = () => setIsHovering(false);
 
-  const handleSkillClick = (skillName) => {
-    if (clickedSkill === skillName) {
-      setClickedSkill(null); // Hide if already showing
-    } else {
-      setClickedSkill(skillName); // Show the clicked skill
-    }
-  };
+  
 
   const skills = [
     { name: 'React', level: 90, icon: '⚛️', color: '#61DAFB' },
