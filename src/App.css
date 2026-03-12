@@ -194,6 +194,7 @@
   z-index: 1;
   line-height: 1;
   flex-shrink: 0;
+  margin-left: 20px;
 }
 
 .logo-shape {
